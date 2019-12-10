@@ -1,12 +1,13 @@
 apiVersion: v1
 entries:
-  dummy-xapp:
+  my-ric:
   - apiVersion: v1
-    created: "2019-12-03T11:26:00.250354437+03:00"
-    description: Common templates for inclusion in other charts
-    digest: d7c9a64a83b95c29904061fcd690ac4ef275565dc67de8088f039905c392265f
-    name: dummy-xapp
+    appVersion: "1.0"
+    created: "2019-12-10T09:49:37.169977326+03:00"
+    description: A Helm chart for Kubernetes
+    digest: d60d4130a551e7ab005c7b73c7bce0f8195c6775bba2bdedb08a757765a84c4b
+    name: my-ric
     urls:
-    - http://tugrulerdogan.github.io/helm_repo_example/dummy-xapp-2.0.8.tgz
-    version: 2.0.8
-generated: "2019-12-03T11:26:00.249345408+03:00"
+    - https://tugrulerdogan.github.io/helm_repo_example/my-ric-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-12-10T09:49:37.168949226+03:00"
